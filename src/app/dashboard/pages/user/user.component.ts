@@ -1,10 +1,9 @@
-import { Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 
 import { TitleComponent } from '@shared/title/title.component';
-import { User } from '@interfaces/req-response';
 import { switchMap } from 'rxjs';
 import { UsersService } from '@services/users.service';
 
